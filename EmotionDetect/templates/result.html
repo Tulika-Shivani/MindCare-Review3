@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            position: relative;
+        }
+
+        .bg {
+            opacity: 25%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            color: darkturquoise;
+            font-size: 50px;
+        }
+
+        a {
+            color: darkturquoise;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Background image-->
+    <div class="content">
+        <center>
+            <h1>
+                Your emotion : {{ result }}
+            </h1>
+            <img src="../static/{{ image }}">
+            <br><br>
+            <a href="http://localhost/mindcare/EmotionDetect/templates/home.html">Go back</a>
+        </center>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{##}
+{# <img src="../static/{{ image }}"><br><br>#}
+{# <a href="/">Main Page</a>#}

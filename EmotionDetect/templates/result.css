@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    padding:0;
+}
+.content{
+    position: relative;
+}
+.bg{
+    opacity: 25%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+h1{
+    color:darkturquoise;
+    font-size: 50px;
+}
+a{
+    color:darkturquoise;
+}

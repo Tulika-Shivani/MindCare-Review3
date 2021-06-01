@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+}
+.content{
+    position: relative;
+}
+.bg{
+    opacity: 25%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    color:darkturquoise;
+    font-size: 50px;
+}
+.box{
+    border: darkturquoise solid ;
+    border-radius: 20px;
+    width: 500px;
+    height:400px;
+    background-color: aliceblue;
+}
+.form{
+    padding:30px;
+}
+.how{
+    padding:10px;
+    margin:30px;
+    width:300px;
+    height:200px;
+    border-radius: 10px;
+}
+.button {
+    background-color:rgb(231, 105, 105);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 0%;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.button {
+    transition-duration: 0.4s;
+  }
+  
+.button:hover {
+    background-color:pink;
+    color: white;
+  }
