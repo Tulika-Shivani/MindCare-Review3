@@ -27,10 +27,9 @@
         <div class="nav">
             <a href="index.php">Home</a>
             <a href="assessment.php">Self-assessment</a>
-            <a href="ventitout.php">Vent-it-Out</a>
+            <a href="./EmotionDetect/templates/home.html">Emotion Detector</a>
             <a href="contact.php">Seek Help</a>
             <a href="AboutUs.php">About Us</a>
-            <a href="./EmotionDetect/templates/home.html">Emotion Detector</a>
             <a href="login.php">Login</a>
             <a href="signup.php">Sign Up</a>
             <form method='post' action="">
